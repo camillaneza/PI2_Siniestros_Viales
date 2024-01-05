@@ -79,3 +79,15 @@ def duplicados_por_columna(df, columna):
     # Se ordenan dichas filas y se comparan
     filas_duplicadas_ordenadas = duplicacion_de_filas.sort_values(by=columna)
     return filas_duplicadas_ordenadas
+
+def convertir_a_time(x):
+    if isinstance(x, str):
+        try:
+            return datetime.strptime(x, "%H:%M:%S").time()
+        except ValueError:
+            return None
+    elif isinstance(x, datetime):
+        return x.time()
+    return x
+
+        
