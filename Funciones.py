@@ -90,4 +90,36 @@ def convertir_a_time(x):
         return x.time()
     return x
 
-        
+
+def imputa_edad_media_segun_sexo(df):
+    '''
+    Imputa valores faltantes en la columna 'Edad' utilizando la edad promedio según el género.
+
+    Esta función reemplaza los valores "SD" con NaN en la columna 'Edad', calcula la edad promedio
+    para cada grupo de género (Femenino y Masculino), imprime los promedios calculados y
+    luego llena los valores faltantes en la columna 'Edad' utilizando el promedio correspondiente
+    al género al que pertenece cada fila en el DataFrame.
+
+    Parameters:
+        df (pandas.DataFrame): El DataFrame que contiene la columna 'Edad' a ser imputada.
+
+    Returns:
+        None
+    '''
+    
+    # Se reemplaza "SD" con NaN en la columna 'edad'
+    df['EDAD'] = df['EDAD'].replace('SD', pd.NA)
+
+    # Se calcula el promedio de edad para cada grupo de género
+    promedio_por_genero = df.groupby('SEXO')['EDAD'].mean()
+    print(f'La edad promedio de Femenino es {round(promedio_por_genero["FEMENINO"])} y de Masculino es {round(promedio_por_genero["MASCULINO"])}')
+
+    # Se llenan los valores NaN en la columna 'edad' utilizando el promedio correspondiente al género
+    df['EDAD'] = df.apply(lambda row: promedio_por_genero[row['SEXO']] if pd.isna(row['EDAD']) else row['EDAD'], axis=1)
+
+    # Se convierte a tipo float para manejar NaN e infinitos
+    df['EDAD'] = df['EDAD'].astype(float)
+
+    # Se redondean los valores finitos a tipo entero
+    df['EDAD'] = df['EDAD'].round().astype('Int64')
+
