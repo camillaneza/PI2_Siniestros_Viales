@@ -91,6 +91,31 @@ def convertir_a_time(x):
     return x
 
 
+def imputa_valor_frecuente(df, columna):
+    '''
+    Imputa los valores faltantes en una columna de un DataFrame con el valor más frecuente.
+
+    Esta función reemplaza los valores "SD" con NaN en la columna especificada,
+    luego calcula el valor más frecuente en esa columna y utiliza ese valor
+    para imputar los valores faltantes (NaN).
+
+    Parameters:
+        df (pandas.DataFrame): El DataFrame que contiene la columna a ser imputada.
+        columna (str): El nombre de la columna en la que se realizará la imputación.
+
+    Returns:
+        None
+    '''
+    # Se reemplaza "SD" con NaN en la columna
+    df[columna] = df[columna].replace('SD', pd.NA)
+
+    # Se calcula el valor más frecuente en la columna
+    valor_mas_frecuente = df[columna].mode().iloc[0]
+    print(f'El valor mas frecuente es: {valor_mas_frecuente}')
+
+    # Se imputan los valores NaN con el valor más frecuente
+    df[columna].fillna(valor_mas_frecuente, inplace=True)
+
 def imputa_edad_media_segun_sexo(df):
     '''
     Imputa valores faltantes en la columna 'Edad' utilizando la edad promedio según el género.
