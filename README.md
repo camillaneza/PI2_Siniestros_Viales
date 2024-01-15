@@ -2,7 +2,7 @@
 <h1> PROYECTO INDIVIDUAL 2: SINIESTROS VIALES </h1>
 </p>
 
-<h2>_INTRODUCCIÓN:_</h2>
+<h3>__INTRODUCCIÓN:__</h3>
 
 
 
