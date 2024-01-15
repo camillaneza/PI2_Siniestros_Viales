@@ -1,5 +1,5 @@
 
-<h1> <center> PROYECTO INDIVIDUAL 2: SINIESTROS VIALES </center> </h1>
+<center><h1>PROYECTO INDIVIDUAL 2: SINIESTROS VIALES</h1></center>
 
 
 *<h3>INTRODUCCIÓN:</h3>*
