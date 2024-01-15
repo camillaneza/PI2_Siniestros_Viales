@@ -1,4 +1,9 @@
-# PI2_Siniestros_Viales
+<p align="center">
+# PROYECTO INDIVIDUAL 2: SINIESTROS VIALES
+</p>
+
+##_INTRODUCCIÓN:_ 
+
 
 
 Se ingresó a la página del Gobierno de la Ciudad, para ver a qué barrios correspondía cada comuna (https://buenosaires.gob.ar/sindicatura/universo-de-control/comunas-15)
