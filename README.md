@@ -1,5 +1,5 @@
 
-<p align="center"><h1>PROYECTO INDIVIDUAL 2: SINIESTROS VIALES</h1></p> :warning:
+<p align="center"><h1>PROYECTO INDIVIDUAL 2: SINIESTROS VIALES:warning:</h1></p> 
 
 
 *<h3>INTRODUCCIÓN:</h3>*
@@ -15,7 +15,7 @@ Se analizó el conjunto de datos denominado "Homicidios", que contiene los apart
 El apartado de "Hechos" contiene Id único del suceso, fecha en la que se produjo, la locación, y el rol de los participantes.
 Por otra parte, el apartado "Víctimas" contiene datos sobre las mismas, como edad, sexo, y modo de desplazamiento; como así también el Id del hecho.
 Además, se ingresó otro dataset de la página del Gobierno de la Ciudad, para ver a qué barrios correspondía cada comuna [Link](https://buenosaires.gob.ar/sindicatura/universo-de-control/comunas-15)
-Posteriormente, se sacaron los datos oficiales de los censos 2010 y 2022 para establecer la cantidad de habitantes de la Ciudad Autónoma de Buenos Aires [Link](https://censo.gob.ar/index.php/datos_definitivos_caba/)
+Posteriormente, se sacaron los datos oficiales de los censos 2010 y 2022 para establecer la cantidad de habitantes de la Ciudad Autónoma de Buenos Aires [Link] (https://censo.gob.ar/index.php/datos_definitivos_caba)
 
 *<h3>ANÁLISIS:</h3>*
 Para la elaboración de este proyecto se utilizó Python y Pandas para los procesos de extracción, transformación y carga de los datos, como así también para el análisis exploratorio de los datos, en cuyo caso también se utilizó matplotlib y seaborn.
