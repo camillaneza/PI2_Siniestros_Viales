@@ -1,5 +1,5 @@
 
-<p align="center"><h1>PROYECTO INDIVIDUAL 2: SINIESTROS VIALES:warning:</h1></p> 
+<p align="center"><h1>PROYECTO INDIVIDUAL 2: SINIESTROS VIALES :warning:</h1></p> 
 
 
 *<h3>INTRODUCCIÓN:</h3>*
@@ -45,16 +45,20 @@ Por último, se realizó un análisis por zona, donde se puede observar que el 6
 ![image](https://github.com/camillaneza/PI2_Siniestros_Viales/assets/109699708/fd07f9ad-f1d6-4954-ac18-ef1dea1dd87e)
 
 *<h3>KPIs:</h3>*
-se plantearon tres objetivos en relación a la disminución de la cantidad de víctimas fatales de los siniestros viales, desde los cuales se proponen tres indicadores de rendimiento clave o KPI.
+Se plantearon tres objetivos en relación a la disminución de la cantidad de víctimas fatales de los siniestros viales, desde los cuales se proponen tres indicadores de rendimiento clave o KPI.
 
-Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior
+:small_orange_diamond: Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior .
 
-Las tasas de mortalidad relacionadas con siniestros viales suelen ser un indicador crítico de la seguridad vial en una región. Se define como Tasa de homicidios en siniestros viales al número de víctimas fatales en accidentes de tránsito por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico, en este caso se toman 6 meses. Su fórmula es:
+Definimos a la tasa de homicidios en siniestros viales como el número de víctimas fatales en accidentes de tránsito por cada 100.000 habitantes en un área geográfica durante un período de tiempo específico. Su fórmula es: (Número de homicidios en siniestros viales / Población total) * 100,000
 
-ú
-ó
- 
+:small_orange_diamond: Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior .
 
+Definimos a la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaron en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año actual - Número de accidentes mortales con víctimas en moto en el año anterior) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100
+
+:small_orange_diamond: Reducir en un 10% la cantidad de accidentes mortales producidos en el último año, en cruce de calles, en CABA, respecto al año anterior. Se define al número de víctimas fatales en accidentes de tránsito en cruce de calles por cada 100,000 habitantes en un área geográfica durante un período de tiempo específico, en este caso anual.(Número de accidentes mortales de víctimas en cruce de calles / Población total) *100,000
+
+
+(ojo borrar)
 Como Población Total se calculó la población para el año 2021 a partir de los censos poblacionales del año 2010 y 2022.
 
 En este caso, para el año 2021, la Tasa de homicidios en siniestros viales fue de 1.77 lo que significa que, durante los primeros 6 meses del año 2021, hubo aproximadamente 1.77 homicidios en accidentes de tránsito por cada 100,000 habitantes. Ahora, el objetivo planteado es reducir esta tasa para el siguiente semestre de 2021 en un 10%, esto es 1.60. Cuando se calcula el KPI para este período se obtiene que la Tasa de homicidios en siniestros viales fue de 1.35, lo que significa que para el segundo semestre de 2021 se cumple con el objetivo propuesto.
