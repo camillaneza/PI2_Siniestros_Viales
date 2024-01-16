@@ -27,10 +27,22 @@ De acuerdo al rol de la víctima, aproximadamente el 45% era conductor. Teniendo
 
 ![image](https://github.com/camillaneza/PI2_Siniestros_Viales/assets/109699708/025a0812-3394-4bc5-a244-66028eb89e75)
 
+![image](https://github.com/camillaneza/PI2_Siniestros_Viales/assets/109699708/26f0c6e1-45b6-4247-a73d-7411e01cf1fc)
+
 
 Luego se analizó la variable temporal, para entender la distribución de los homicidios en distintas escalas temporales. Casi el 61% de los accidentes se produjeron entre los años 2016 y 2018. Luego se ve una baja en el 2019, 2020 y 2021. Por otra parte, el mes que mayor cantidad de víctimas tiene es el mes de diciembre. Además, los días lunes son el día con mayor cantidad de accidentes, y si hablamos de rango horario, de 06:00 a 09:00hs.
 
+
+![image](https://github.com/camillaneza/PI2_Siniestros_Viales/assets/109699708/0598e5cc-5240-4365-9031-69adafa80a9c)
+
+![image](https://github.com/camillaneza/PI2_Siniestros_Viales/assets/109699708/76719af8-8e09-4a5b-8d1b-2897bd868918)
+
+
 Por último, se realizó un análisis por zona, donde se puede observar que el 62% de los accidentes se produjo en avenidas, y el 75% fue en cruce de calles. Además, se observa que la Comuna que más accidentes tiene es la Comuna 1, que consta de los barrios Retiro, San Nicolás, Puerto Madero, San Telmo, Montserrat y Constitución.
+
+![image](https://github.com/camillaneza/PI2_Siniestros_Viales/assets/109699708/dd408041-7bce-44a1-9d0f-41428fcb6532)
+
+![image](https://github.com/camillaneza/PI2_Siniestros_Viales/assets/109699708/fd07f9ad-f1d6-4954-ac18-ef1dea1dd87e)
 
 *<h3>KPIs:</h3>*
 se plantearon tres objetivos en relación a la disminución de la cantidad de víctimas fatales de los siniestros viales, desde los cuales se proponen tres indicadores de rendimiento clave o KPI.
