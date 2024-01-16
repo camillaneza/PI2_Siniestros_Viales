@@ -11,17 +11,16 @@ Los siniestros viales, también conocidos como accidentes de tráfico o accident
 En Argentina, cada año mueren cerca de 4.000 personas en siniestros viales. Entre 2018 y 2022 se registraron 19.630 muertes en siniestros viales en todo el país. Sólo en la Ciudad Autónoma de Buenos Aires, en el año 2022, fueron 103 víctitmas. Estos datos se pueden ver en el siguiente [Link](https://luchemos.org.ar/es/estadisticas/muertosanuales)
 
 *<h3>DATOS:</h3>*
-Se analizó el conjunto de datos denominado "Homicidios", que contiene los apartedos "Hechos" y "Víctimas" de la página del Gobierno de la Ciudad [Link](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales)
+Se analizó el conjunto de datos denominado "Homicidios", que contiene los apartedos "Hechos" y "Víctimas" de la página del Gobierno de la Ciudad. [Link](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales)
 El apartado de "Hechos" contiene Id único del suceso, fecha en la que se produjo, la locación, y el rol de los participantes.
 Por otra parte, el apartado "Víctimas" contiene datos sobre las mismas, como edad, sexo, y modo de desplazamiento; como así también el Id del hecho.
 Además, se ingresó otro dataset de la página del Gobierno de la Ciudad, para ver a qué barrios correspondía cada comuna [Link](https://buenosaires.gob.ar/sindicatura/universo-de-control/comunas-15)
-Posteriormente, se sacaron los datos oficiales de los censos 2010 y 2022 para establecer la cantidad de habitantes de la Ciudad Autónoma de Buenos Aires [Link] (https://censo.gob.ar/index.php/datos_definitivos_caba)
+Posteriormente, se sacaron los datos oficiales de los censos 2010 y 2022 para establecer la cantidad de habitantes de la Ciudad Autónoma de Buenos Aires [Link](https://censo.gob.ar/index.php/datos_definitivos_caba)
 
 *<h3>ANÁLISIS:</h3>*
 Para la elaboración de este proyecto se utilizó Python y Pandas para los procesos de extracción, transformación y carga de los datos, como así también para el análisis exploratorio de los datos, en cuyo caso también se utilizó matplotlib y seaborn.
 Para la construcción de un dashboard interactivo se utilizó Power BI.
-Asimismo, se utilizó el 'Manual de normas / Identidad Visual Institucional' del Gobierno de la Ciudad, para extraer y utilizar la paleta cromática. [Link]
-(https://cdn2.buenosaires.gob.ar/gestiondigital/Manual%20GCBA%20Versi%C3%B3n%20Final..pdf)
+Asimismo, se utilizó el 'Manual de normas / Identidad Visual Institucional' del Gobierno de la Ciudad, para extraer y utilizar la paleta cromática. [Link](https://cdn2.buenosaires.gob.ar/gestiondigital/Manual%20GCBA%20Versi%C3%B3n%20Final..pdf)
 
 Como primera medida, se realizó un análisis según las víctimas, su sexo y edad, como así también por rol y transporte. Se observa que el 77% de las víctimas son masculinas, teniendo un pico en el rango etario de 35-44.
 De acuerdo al rol de la víctima, aproximadamente el 45% era conductor. Teniendo en cuenta el transporte, un 42% estaba a bordo de una motocicleta.
