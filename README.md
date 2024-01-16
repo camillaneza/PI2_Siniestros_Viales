@@ -25,6 +25,9 @@ Asimismo, se utilizó el 'Manual de normas / Identidad Visual Institucional' del
 Como primera medida, se realizó un análisis según las víctimas, su sexo y edad, como así también por rol y transporte. Se observa que el 77% de las víctimas son masculinas, teniendo un pico en el rango etario de 35-44.
 De acuerdo al rol de la víctima, aproximadamente el 45% era conductor. Teniendo en cuenta el transporte, un 42% estaba a bordo de una motocicleta.
 
+![image](https://github.com/camillaneza/PI2_Siniestros_Viales/assets/109699708/025a0812-3394-4bc5-a244-66028eb89e75)
+
+
 Luego se analizó la variable temporal, para entender la distribución de los homicidios en distintas escalas temporales. Casi el 61% de los accidentes se produjeron entre los años 2016 y 2018. Luego se ve una baja en el 2019, 2020 y 2021. Por otra parte, el mes que mayor cantidad de víctimas tiene es el mes de diciembre. Además, los días lunes son el día con mayor cantidad de accidentes, y si hablamos de rango horario, de 06:00 a 09:00hs.
 
 Por último, se realizó un análisis por zona, donde se puede observar que el 62% de los accidentes se produjo en avenidas, y el 75% fue en cruce de calles. Además, se observa que la Comuna que más accidentes tiene es la Comuna 1, que consta de los barrios Retiro, San Nicolás, Puerto Madero, San Telmo, Montserrat y Constitución.
